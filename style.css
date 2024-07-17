@@ -63,39 +63,6 @@ a {
   border-radius: 5%;
 }
 
-.section-title{
-  color: rgb(247, 124, 84);
-  width: 100%;
-  text-align: center;
-  font-family: "Playwrite GB S", cursive;
-  font-size: 350%;
-  margin-top: 3%;
-  margin-bottom: 0;
-}
-
-.collection-container{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  margin: 5%;
-  gap: 2%;
-}
-
-.collection-item{
-  margin-top: 20%;
-  width: 15rem;
-  height: 10rem;
-}
-
-.collection-item h3{
-  text-align: center;
-}
-
-.collection-img{
-  width: 100%;
-  height: 100%;
-  border-radius: 5%;
-}
-
 .modal {
   display: none; 
   position: fixed; 
@@ -142,10 +109,6 @@ a {
   .thumbnail-container{
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .collection-container{
-    grid-template-columns: repeat(3, 1fr);
-  }
     
 }
 
@@ -161,13 +124,5 @@ a {
     width: 100%;
     justify-items: center;
   }
-  .collection-container{
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%;
-    justify-items: center;
-  }
 
-  .collection-item{
-    margin-top: 10%;
-  }
 }
